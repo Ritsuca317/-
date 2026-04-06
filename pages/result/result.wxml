@@ -1,0 +1,9 @@
+<view class="page">
+  <view class="card">
+    <view class="title">{{resultTitle}}</view>
+    <view class="subtitle">{{resultText}}</view>
+
+    <button class="primary-button" bindtap="restartGame">再来一局</button>
+    <button class="secondary-button" bindtap="goHome">返回首页</button>
+  </view>
+</view>

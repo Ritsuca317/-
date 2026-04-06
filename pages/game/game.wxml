@@ -1,0 +1,30 @@
+<view class="page">
+  <view class="card">
+    <view class="title">游戏页面</view>
+    <view class="subtitle">这里先展示基础界面，暂时不实现完整游戏逻辑</view>
+
+    <view class="section">
+      <text class="section-title">当前玩家</text>
+      <text class="text value">玩家{{currentPlayerIndex + 1}}</text>
+    </view>
+
+    <view class="section">
+      <text class="section-title">当前范围</text>
+      <text class="text value">{{currentMin}} ~ {{currentMax}}</text>
+    </view>
+
+    <view class="section">
+      <text class="section-title">请输入你的数字</text>
+      <input
+        class="input"
+        type="number"
+        placeholder="请输入数字"
+        value="{{inputValue}}"
+        bindinput="handleInput"
+      />
+    </view>
+
+    <button class="primary-button" bindtap="submitGuess">提交猜测</button>
+    <view class="tip">{{message}}</view>
+  </view>
+</view>

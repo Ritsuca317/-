@@ -1,0 +1,16 @@
+<view class="page">
+  <view class="card">
+    <view class="title">数字炸弹</view>
+    <view class="subtitle">适合双人轮流玩的简单猜数字小游戏</view>
+
+    <view class="section">
+      <text class="section-title">游戏规则</text>
+      <text class="text">1. 系统会准备一个隐藏的炸弹数字。</text>
+      <text class="text">2. 两位玩家轮流输入一个数字。</text>
+      <text class="text">3. 每猜一次，可猜范围会慢慢缩小。</text>
+      <text class="text">4. 谁猜中炸弹，谁就输掉这一局。</text>
+    </view>
+
+    <button class="primary-button" bindtap="startGame">开始游戏</button>
+  </view>
+</view>
